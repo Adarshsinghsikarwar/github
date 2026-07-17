@@ -1,1 +1,8 @@
 hello
+git add <files>
+fit add .
+git add -p
+git commit -m "message"
+git commit -am "message"
+git diff
+git diff --staged
