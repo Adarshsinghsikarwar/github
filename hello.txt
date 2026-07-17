@@ -6,3 +6,12 @@ git commit -m "message"
 git commit -am "message"
 git diff
 git diff --staged
+
+
+git branch
+git branch <branch_name>
+git checkout <branch_name>
+git switch <branch_name>
+git checkout -b <branch_name>
+git branch -d <branch_name>
+git branch -D <branch_name>
