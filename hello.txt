@@ -29,7 +29,8 @@ git reset --soft HAED~1
 git reset --mixed HAED~1
 git reset --hard HEAD~1
 git revert <commit-hash>
-git restore <file>  
+git restore <file>
+git checkout -- <file>  
 
 
 git log 
