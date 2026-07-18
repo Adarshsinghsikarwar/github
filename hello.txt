@@ -17,3 +17,36 @@ git branch -d <branch_name>
 git branch -D <branch_name>
 git merge <branch>
 git branch -m <old_branch_name> <new_branch_name>
+
+
+git push origin <branch>
+git push -u origin <branch>
+git push --force
+git pull
+git fetch
+
+git reset --soft HAED~1
+git reset --mixed HAED~1
+git reset --hard HEAD~1
+git revert <commit-hash>
+git restore <file>  
+
+
+git log 
+git log --oneline
+git log --online --graph --all  
+git blame <file> 
+git show <commit-hash>
+
+
+
+git stash
+git stash list
+git stash pop
+git stash apply
+git stash drop
+
+
+git tag
+git tag v1.0
+git push origin v1.0
